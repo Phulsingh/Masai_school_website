@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+.container{
+    background-color: antiquewhite;
+    height: 1200px;
+    width: 100%;
+    color: black;
+}
+.container .apply{
+    width: 100%;
+    height:50px;
+    background-color: #F1948A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 1000;
+    justify-items: center;
+    padding-top: 15px;
+}
+#apply{
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 2px solid red;
+    margin-left: 10px;
+    margin-top: -13px;
+    border-radius: 5px;
+}
+#apply:hover{
+    background-color:#A569BD ;
+}
+.nav{
+    color: black;
+    background-color: #48C9B0 ;
+    height:80px;
+    width: 100%;
+    float: right;
+    font-size: 20px; 
+}
+.masai{
+    display: flex;
+    margin: 20px 40px 20px 70px;
+    font-size: 35px;
+    float:left;
+}
+.masai:hover{
+    background-color: palevioletred;
+    border: 2px solid white;
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    text-align: center;
+}
+.list{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 40px;
+    justify-content: space-evenly;
+
+}
+.list .list-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.list .list-item .list-items{
+    margin-left: 50px;
+    list-style: none;
+}
+#button{
+    height: 40px;
+    width: 150px;
+    background-color:#D0ECE7 ;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid white;
+}
+#profile{
+    height: 40px;
+    width: 150px;
+    background-color:#F0B27A ;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid white;
+}
+#profile:hover{
+    background-color: #F4D03F ;
+}
+#button:hover{
+    background-color: #F4D03F ;
+}
+.list-items:hover{
+    color: red;
+}
+div .courses{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 150px;
+    width: 100%;
+}
+div .courses h1 p{
+    display: flex;
+    padding-top: 50px;
+}
+.courses h1{
+    padding-top: 30px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+div .courses p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.first{
+    display: flex;
+    height: 350px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: transparent;
+}
+.box{
+    height: 450px;
+    width: 55%;
+    margin-right: 5%;
+}
+#boxa{
+    background: rgb(183, 184, 229) ;
+    height: 400px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#detaila h1{
+    font-size: 40px;
+    margin-left: 5px;
+    font-weight: 1000;
+}
+#detaila h3{
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 20px;
+}
+#detaila p{
+    margin-left: 35px;
+    margin-top: 8px;
+}
+#detaila button{
+    height: 50px;
+    width: 290px;
+    background-color: red;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 14px;
+}
+#detailb h1{
+    font-size: 32px;
+    margin-left: 5px;
+    font-weight: 1000;
+}
+#detailb h3{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+#detailb p{
+    margin-left: 35px;
+    margin-top: 8px;
+}
+div #imga{
+    height: 180px;
+    margin-left: 100px;
+}
+div #detaila{
+    background-color: white;
+    height: 270px;
+}
+div #imgb{
+    margin-left: 100px;
+    height: 180px; 
+}
+div #detailb{
+    background-color: white;
+    height: 270px;
+}
+#detailb h1{
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: 1000;
+}
+#detailb h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+#detailb p{
+    margin-left: 35px;
+    margin-top: 8px;
+}
+#detailb button{
+    height: 50px;
+    width: 290px;
+    background-color: red;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 14px;
+}
+
+div #imgc{
+    margin-left: 100px; 
+    height: 180px;  
+}
+div #detailc{
+    background-color: white;
+    height: 270px;
+}
+#boxb{
+    background: rgb(229, 201, 183);
+    height: 450px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#boxc{
+    background: rgb(183, 222, 230);
+    height: 450px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#detailc h1{
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: 1000;
+}
+#detailc h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+#detailc p{
+    margin-left: 35px;
+    margin-top: 8px;
+}
+#detailc button{
+    height: 50px;
+    width: 290px;
+    background-color: red;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 14px;
+}
+#boxd{
+    background-color: rgb(183, 222, 230);
+    height: 450px;
+    width: 80%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#detaild h1{
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: 1000;
+}
+#detaild h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+#detaild p{
+    margin-left: 35px;
+    margin-top: 8px;
+}
+#detaild button{
+    height: 50px;
+    width: 290px;
+    background-color: red;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 14px;
+}
+div #imgd{
+    margin-left: 100px;
+    height: 180px;   
+}
+div #detaild{
+    background-color: white;
+    height: 270px;
+}
+#boxe{
+    background: rgb(183, 222, 230);
+    height: 450px;
+    width: 80%;
+    margin-left: 80px;
+    width: 70%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#detaile h1{
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: 1000;
+}
+#detaile h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+#detaile p{
+    margin-left: 35px;
+    margin-top: 8px;
+}
+#detaile button{
+    height: 50px;
+    width: 290px;
+    background-color: red;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 14px;
+}
+div #imge{
+    margin-left: 100px;
+    height: 180px; 
+}
+div #detaile{
+    background-color: white;
+    height: 270px;
+}
+
+.after{
+    margin-top: 150px;
+    display: flex;
+    height: 400px;
+    width: 70%;
+    margin-left: 20%;
+    background: transparent;
+    margin-right:200px;
+}
+
+
